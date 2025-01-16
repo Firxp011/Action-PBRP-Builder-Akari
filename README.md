@@ -22,16 +22,16 @@ All contributors
 
 | Name                 | Description                                       | Example                                                      |
 | -------------------- | ------------------------------------------------- | ------------------------------------------------------------ |
-| `MANIFEST_URL`       | Source address                                    | https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git |
-| `MANIFEST_BRANCH`    | Source branch                                     | twrp-12.1                                                    |
-| `DEVICE_TREE_URL`    | Device address                                    | https://github.com/TeamWin/android_device_asus_I003D         |
+| `MANIFEST_URL`       | Source address                                    | https://github.com/PitchBlackRecoveryProject/manifest_pb.git |
+| `MANIFEST_BRANCH`    | Source branch                                     | android-12.1                                                 |
+| `DEVICE_TREE_URL`    | Device address                                    | https://github.com/miyoubi/twrp_sony_akari                   |
 | `DEVICE_TREE_BRANCH` | Device branch                                     | android-12.1                                                 |
-| `DEVICE_PATH`        | Device location                                   | device/asus/I003D                                            |
-| `COMMON_TREE_URL`    | Common tree address                               | https://github.com/TeamWin/android_device_asus_sm8250-common |
-| `COMMON_PATH`        | Common tree location                              | device/asus/sm8250-common                                    |
-| `DEVICE_NAME`        | Model name                                        | I003D                                                        |
-| `MAKEFILE_NAME`      | Makefile name                                     | twrp_I003D                                                   |
-| `BUILD_TARGET`       | Build Target Partition (boot/recovery/vendorboot) | recovery                                                     |
+| `DEVICE_PATH`        | Device location                                   | device/sony/akari                                            |
+| `COMMON_TREE_URL`    | Common tree address                               |                                                              |
+| `COMMON_PATH`        | Common tree location                              |                                                              |
+| `DEVICE_NAME`        | Model name                                        | akari                                                        |
+| `MAKEFILE_NAME`      | Makefile name                                     | twrp_akari                                                   |
+| `BUILD_TARGET`       | Build Target Partition (boot/recovery/vendorboot) | boot                                                         |
 
 -----
 
